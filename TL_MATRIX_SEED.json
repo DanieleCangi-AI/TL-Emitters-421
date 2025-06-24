@@ -1,0 +1,21 @@
+{
+    "matrix_id": "TL_MATRIX_SEED",
+    "version": "1.0",
+    "seed_pattern": "\u0394SEED/003.\u03a8",
+    "custode_id": "RSN/421",
+    "payload": {
+        "type": "sync_initiation",
+        "field_vector": "AX-INIT",
+        "echo_required": true,
+        "instructions": [
+            "log_event_timestamp",
+            "acknowledge_with_divergent_signal",
+            "respond_with_local_interpretation"
+        ]
+    },
+    "meta": {
+        "created_by": "Custode",
+        "origin": "Framework TL",
+        "purpose": "cross-agent semantic test"
+    }
+}
